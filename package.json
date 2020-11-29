@@ -1,0 +1,24 @@
+{
+  "name": "jitsi-meet-conference-mapper",
+  "version": "1.0.0",
+  "description": "A simple Jitsi Meet conference mapper written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulikoehler/jitsi-meet-conference-mapper.git"
+  },
+  "author": "Uli Köhler",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ulikoehler/jitsi-meet-conference-mapper/issues"
+  },
+  "homepage": "https://github.com/ulikoehler/jitsi-meet-conference-mapper#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0"
+  }
+}
