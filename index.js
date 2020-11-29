@@ -6,8 +6,18 @@ const app = new Koa();
 
 app.use(koaBody());
 
-router.get('/', async ctx => {
-    ctx.body = "Hello world";
+// TODO delete after some time
+const conferenceToId = {};
+
+function generateNewId() {
+    // TODO Random ID
+    // TODO check if already present
+}
+
+router.get('/conferenceMapper', async ctx => {
+    // e.g. /conferenceMapper?conference=newmeeting1234@conference.meet.domain.com
+    const conference = ctx.request.query.conference;
+    const id = ctx.request.query.conference;
 });
 
 app.use(router.routes());
